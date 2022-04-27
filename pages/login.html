@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/login.css">
+    <title>Precious Island</title>
+</head>
+<body>
+    <section>
+        <!-- header section -->
+        <header>
+            <!-- NAVBAR SECTION -->
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+              <div id="menu-bar" class="fas fa-bars"></div>
+              <i class="fas fa-bars"></i>
+            </label>
+      
+            <a href="./../index.html" class="logo">Precious Island</a>
+      
+            <nav class="navbar">
+              <li><a href="./../index.html">Home</a></li>
+              <li><a href="./event.html">Event</a></li>
+              <li><a href="./dashboard.html">Dashboard</a></li>
+              <li><a href="#" class="active">Login</a></li>
+              <li><a href="#">e-Certificate</a></li>
+              <li><a href="./signup.html" class="sign-up-now">Sign Up &rarr;</a></li>
+            </nav>
+      
+            <!-- <div class="icons">
+              <i class="fas fa-search" id="search-btn"></i>
+              <i class="fas fa-user" id="login-btn"></i>
+            </div> -->
+          </header>
+    
+    
+    
+        <!-- HOME SECTION -->
+        <section class="home" id="home" data-aos="zoom-in">
+            <!-- LOGIN SECTION -->
+    <section class="login-now">
+        <div class="login login-container">
+            <label class="login-text" for="">Log in</label><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" placeholder="eg: uchnaedu@gmail.com" class="input-section" required>
+            <br><br>
+            <label for="password">Password</label><br>
+            <input type="password" placeholder="Enter password here" class="input-section" required>
+
+            <br><br>
+            <div class="payment-content">
+                <button class="btn" onclick="openPopUp()">Login</button>
+            </div>
+
+        </div>
+
+        <hr>
+        <p class="sign-in-with">or sign in with</p>
+
+        <!-- social media icons -->
+        <div class="social-icons">
+            <img class="social-icons-google" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Mjy28BAY3wLMhv_dzRJx-dTB1rDk8d6Tf8SQ6N86hCZHXXK4ywkQsMvHQyclEv5rdjA&usqp=CAU" alt="google">
+            <img class="social-icons-facebook" src="https://www.facebook.com/images/fb_icon_325x325.png" alt="facebook">
+            <img class="social-icons-linkedin" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin">
+        </div>
+
+       <a href="./signup.html"> <p class="social-account">Don't have an account? <span class="social-sign-up">Sign up</span></p>
+       </a>
+    </section>
+
+
+          </section>
+    
+
+
+
+</section>
+
+  <!-- FOOTER SECTION  -->
+
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>About us</h3>
+        <p class="precious-paragrapgh">
+            Precious Island works with private and public sectors to help youth initiatives towards Sustainable Development Goals (SDGs) through collaborations. We held the Global Youth Conference on SDGs in Indonesia every December as our commitment to promote various initiatives by youths in Indonesia and the world. We also worked with schools, universities, and youth organizations through our One Person One Tree programme and series of free webinars to help students creating innovative solutions that can be presented during the yearly conferences.
+        </p>
+      </div>
+      <!-- <div class="box">
+        <h3>branch locations</h3>
+        <a href="#">Lekki</a>
+        <a href="#">Ikeja</a>
+        <a href="#">Victoria Island</a>
+        <a href="#">Ajah</a>
+      </div> -->
+      <div class="box-quick">
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#">home</a>
+        <a href="#">event</a>
+        <a href="#">dashboard</a>
+        <a href="#">e-certificate</a>
+        <!-- <a href="#"></a>
+        <a href="#">review</a>
+        <a href="#">contact</a> -->
+      </div>
+      <div class="box">
+        <h3>follow us on</h3>
+        <a href="#">facebook</a>
+        <a href="#">instagram</a>
+        <a href="#">twitter</a>
+        <a href="#">linkedin</a>
+      </div>
+    </div>
+    </div>
+
+    <h1 class="credit">
+      Copyright @ <span> Precious Island </span> 2022 | all rights reserved!
+    </h1>
+  </section>
+
+<!--Script pop-->
+
+<script>
+    let popup = document.getElementById('connect-card');
+
+    function openPopUp() {
+        popup.classList.add('open-pop');
+    }
+
+    function closePopUp() {
+        popup.classList.remove('open-pop');
+    }
+</script>
+</body>
+</html>
